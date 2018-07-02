@@ -1,7 +1,11 @@
 # 介绍
+
 >  对官方yiisoft/yii2-queue进行过小修改：
+
 >  修改了JobInterface里的execute接口 和RetryableJobInterface里的canRetry接口，暴露处理队列的id，便于业务层做二次处理。
+
 >  得到jacky-zeng/yii2-queue:2.0.3
+
 >  安装我的版本 composer require "jacky-zeng/yii2-queue:2.0.3" --prefer-source
 
 # 如何配置
