@@ -20,6 +20,13 @@ return [
             'class' => 'yii\console\controllers\FixtureController',
             'namespace' => 'common\fixtures',
           ],
+        //'migrate' => [  //临时创建队列表
+        //    'class' => 'yii\console\controllers\MigrateController',
+        //    'migrationPath' => null,
+        //    'migrationNamespaces' => [
+        //        'yii\queue\db\migrations',
+        //    ],
+        //],
     ],
     'components' => [
         'log' => [
